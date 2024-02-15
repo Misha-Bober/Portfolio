@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <title>карта</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <title>карта</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <main class="page">
-            <h1>Карта</h1>
-            <div  id='map'><img class="map_img" src="img/black.svg" alt="black"></div>
-        </main>
-    </div>
-     <script src="js/script.js"></script>
-     
+  <div class="wrapper">
+    <main class="page">
+      <div class="page__map map">
+        <div class="map__wrapper">
+          <div class="map__body" id='map'>
+          </div>
+        </div>
+      </div>
+    <embed src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10643.268877444756!2d23.28348129454902!3d48.17160391892915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47382945b7f5416d%3A0x67943563549e9db6!2z0YPQuy4g0JrQvtGA0Y_RgtC-0LLQuNGH0LAsIDUsINCl0YPRgdGCLCDQl9Cw0LrQsNGA0L_QsNGC0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDkwNDAw!5e0!3m2!1sru!2sua!4v1708031286422!5m2!1sru!2sua" width="50%" height="720" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></embed>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
