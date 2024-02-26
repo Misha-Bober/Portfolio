@@ -1,0 +1,107 @@
+{
+	"products":[{
+		"id": 1,
+		"favorite": true,
+		"url": "product.html",
+		"image": "img/modules/for-women/1.webp",
+		"title": "Black Sweatshirt with",
+		"label": "Jhanvi’s  Brand",
+		"price": "$123.00"
+	},{
+		"id": 2,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/2.webp",
+		"title": "White T-shirt",
+		"label": "Helen’s  Brand",
+		"price": "$11.00"
+	},{
+		"id": 3,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/3.webp",
+		"title": "Levender Hoodie with ",
+		"label": "Nike’s  Brand",
+		"price": "$119.00"
+	},{
+		"id": 4,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/4.webp",
+		"title": "Leaves Pattern White",
+		"label": "paypal’s  Brand",
+		"price": "$77.00"
+	},{
+		"id": 5,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/5.webp",
+		"title": "White Graphic Crop Top",
+		"label": "woden’s  Brand",
+		"price": "$29.00"
+	},
+    {
+		"id": 6,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/6.webp",
+		"title": "Black Shorts",
+		"label": "MM’s  Brand",
+		"price": "$37.00"
+	},
+    {
+		"id": 7,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/7.webp",
+		"title": "Barboreal Gray Sweats",
+		"label": "Priya’s  Brand",
+		"price": "$77.00"
+	},
+    {
+		"id": 8,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/8.webp",
+		"title": "Yellow Sweatshirt",
+		"label": "woden’s  Brand",
+		"price": "$29.00"
+	},
+    {
+		"id": 9,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/9.webp",
+		"title": "Flower Pattern Black C",
+		"label": "MM’s  Brand",
+		"price": "$37.00"
+	},
+    {
+		"id": 10,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/10.webp",
+		"title": "I Don’t Graphic T-shirt ",
+		"label": "Nisargi’s  Brand",
+		"price": "$77.00"
+	},
+    {
+		"id": 11,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/11.webp",
+		"title": "Blue Flower Print Crop ",
+		"label": "Mellon’s  Brand",
+		"price": "$29.00"
+	},
+    {
+		"id": 12,
+		"favorite": false,
+		"url": "product.html",
+		"image": "img/modules/for-women/12.webp",
+		"title": "line Pattern Black H",
+		"label": "AS’s  Brand",
+		"price": "$37.00"
+	}
+]
+}

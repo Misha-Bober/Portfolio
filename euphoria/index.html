@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Euphoria</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <img class="header__logo" src="img/logo.svg" alt="logo">
+                <div class="header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link menu__link--active" href="#">Shop</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Men</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Women</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Combos</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Joggers</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <form class="header__search search-form" action="#">
+                    <input class="search-form__input" placeholder="Search" type="text">
+                    <button class="search-form__button _icon-search"></button>
+                </form>
+                <div class="header__action action-header">
+                    <a class="action-header__item _icon-heart" href="#"></a>
+                    <a class="action-header__item _icon-user" href="#"></a>
+                    <a class="action-header__item _icon-shopping-cart" href="#"></a>
+                </div>
+                <button class=" icon-menu"><span></span></button>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__hero hero swiper">
+                    <div class="hero__wrapper swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="hero__slide slide-hero swiper-slide">
+                            <div class="slide-hero__container">
+                                <div class="slide-hero__body">
+                                    <div data-swiper-parallax="-80%" class="slide-hero__label">T-shirt / Tops</div>
+                                    <h2 data-swiper-parallax="-100%" class="slide-hero__title">Summer <br>Value Pack</h2>
+                                    <div data-swiper-parallax="-60%" class="slide-hero__label">cool / colorful / comfy</div>
+                                    <a data-swiper-parallax="-100%" class="slide-hero__button button button--white" href="#">Shop Now</a>
+                                </div>
+                            </div>
+                            <img class="slide-hero__img slide-hero__img--top-right" src="img/hero_section-img.webp" alt="Image">
+                        </div>
+                        <div class="hero__slide slide-hero swiper-slide">
+							<div class="slide-hero__container">
+								<div class="slide-hero__body">
+									<div data-swiper-parallax="-80%" class="slide-hero__label">T-shirt / Tops</div>
+									<h2 data-swiper-parallax="-100%" class="slide-hero__title">Some other <br> products</h2>
+									<div data-swiper-parallax="-60%" class="slide-hero__label">cool / colorful / comfy</div>
+									<a data-swiper-parallax="-100%" href="#" class="slide-hero__button button button--white">Shop Now</a>
+								</div>
+							</div>
+							<img src="img/hero_section-img.webp" class="slide-hero__img slide-hero__img--top-right" alt="Image">
+						</div>
+						<div class="hero__slide slide-hero swiper-slide">
+							<div class="slide-hero__container">
+								<div class="slide-hero__body">
+									<div data-swiper-parallax="-80%" class="slide-hero__label">T-shirt / Tops</div>
+									<h2 data-swiper-parallax="-100%" class="slide-hero__title">Other <br> products</h2>
+									<div data-swiper-parallax="-60%" class="slide-hero__label">cool / colorful / comfy</div>
+									<a data-swiper-parallax="-100%" href="#" class="slide-hero__button button button--white">Shop Now</a>
+								</div>
+							</div>
+							<img src="img/hero_section-img.webp" class="slide-hero__img slide-hero__img--top-right" alt="Image">
+						</div>
+						<div class="hero__slide slide-hero swiper-slide">
+							<div class="slide-hero__container">
+								<div class="slide-hero__body">
+									<div data-swiper-parallax="-80%" class="slide-hero__label">T-shirt / Tops</div>
+									<h2 data-swiper-parallax="-100%" class="slide-hero__title">Anything  <br> products</h2>
+									<div data-swiper-parallax="-60%" class="slide-hero__label">cool / colorful / comfy</div>
+									<a data-swiper-parallax="-100%" href="#" class="slide-hero__button button button--white">Shop Now</a>
+								</div>
+							</div>
+							<img src="img/hero_section-img.webp" class="slide-hero__img slide-hero__img--top-right" alt="Image">
+						</div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="hero__pagination"></div>
+                    <!-- If we need navigation buttons -->
+                    <button class="hero__arrow hero__arrow--prev _icon-chevron_left"></button>
+                    <button class="hero__arrow hero__arrow--next _icon-chevron_right"></button>
+            </section>
+            <div class="page__deals deals">
+                <div class="deals__container">
+                    <article class="deals__item">
+                        <div class="deals__content">
+                            <div class="deals__label">Low Price</div>
+                            <h4 class="deals__title">High Coziness</h4>
+                            <div class="deals__offer">UPTO 50% OFF</div>
+                            <a class="deals__link" href="#">Explore Items</a>
+                        </div>
+                        <img class="deals__img" src="img/deals/second_section_img1.webp" alt="img">
+                    </article>
+                    <article class="deals__item">
+                        <div class="deals__content">
+                            <div class="deals__label">Beyoung Presents</div>
+                            <h4 class="deals__title">Breezy Summer <br> Style</h4>
+                            <div class="deals__offer">UPTO 50% OFF</div>
+                            <a class="deals__link" href="#">Explore Items</a>
+                        </div>
+                        <img class="deals__img" src="img/deals/second_section_img2.webp" alt="img">
+                    </article>
+                </div>
+            </div>
+            <section class="page__new new">
+                <div class="new__container">
+                    <h2 class="new__title title title--margin">New Arrival</h2>
+                    <div class="new__slider swiper">
+                        <div class="new__wraper swiper-wrapper">
+                            <div class="new__slide swiper-slide">
+                                <article class="new__item item-new">
+                                    <a class="item-new__link" href="#">
+                                        <img class="item-new__img" src="img/new_arrival/section2-img1.webp" alt="img">
+                                        <h5 class="item-new__title">Knitted Joggers</h5>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="new__slide swiper-slide">
+                                <article class="new__item item-new">
+                                    <a class="item-new__link" href="#">
+                                        <img class="item-new__img" src="img/new_arrival/section2-img2.webp" alt="img">
+                                        <h5 class="item-new__title">Full Sleeve</h5>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="new__slide swiper-slide">
+                                <article class="new__item item-new">
+                                    <a class="item-new__link" href="#">
+                                        <img class="item-new__img" src="img/new_arrival/section2-img3.webp" alt="img">
+                                        <h5 class="item-new__title">Active T-Shirts</h5>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="new__slide swiper-slide">
+                                <article class="new__item item-new">
+                                    <a class="item-new__link" href="#">
+                                        <img class="item-new__img" src="img/new_arrival/section2-img4.webp" alt="img">
+                                        <h5 class="item-new__title">Urban Shirts</h5>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="new__slide swiper-slide">
+                                <article class="new__item item-new">
+                                    <a class="item-new__link" href="#">
+                                        <img class="item-new__img" src="img/new_arrival/section2-img4.webp" alt="img">
+                                        <h5 class="item-new__title">Urban Shirts</h5>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="new__slide swiper-slide">
+                                <article class="new__item item-new">
+                                    <a class="item-new__link" href="#">
+                                        <img class="item-new__img" src="img/new_arrival/section2-img2.webp" alt="img">
+                                        <h5 class="item-new__title">Full Sleeve</h5>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                        <button class="new__arrow new__arrow--left _icon-arrow_left"></button>
+                        <button class="new__arrow new__arrow--right _icon-arrow_right"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="page__sale sale">
+                <div class="sale__container">
+                    <h2 class="sale__title title title--margin">Big Saving Zone</h2>
+                    <div class="sale__items">
+                        <article class="sale__item item-sale">
+                                <div class="item-sale__body">
+                                    <h4 class="item-sale__title">
+                                        <a href="#" class="item-sale__link-title">Hawaiian <br> Shirts</a>
+                                    </h4>
+                                    <div class="item-sale__label">Dress up in summer vibe</div>
+                                    <div class="item-sale__info">UPTO 50% OFF</div>
+                                    <div class="item-sale__arrow _icon-arrow_down">
+                                        <a href="#" class="item-sale__button  ">SHOP NOW</a>
+                                    </div>
+                                </div>
+                                <img class="item-sale__img" src="img/sale/hawaiian_shirts.png" alt="Image">
+                        </article>
+                        <article class="sale__item item-sale item-sale--right item-sale--text-right">
+                                <div class="item-sale__body">
+                                    <div class="item-sale__limited">Limited Stock</div>
+                                    <h4 class="item-sale__title">
+                                        <a href="#" class="item-sale__link-title">Printed <br> T-Shirt</a>
+                                    </h4>
+                                    <div class="item-sale__label">Dress up in summer vibe</div>
+                                    <div class="item-sale__info">UPTO 50% OFF</div>
+                                    <div class="item-sale__arrow _icon-arrow_down">
+                                        <a href="#" class="item-sale__button  ">SHOP NOW</a>
+                                    </div>
+                                </div>
+                                <img class="item-sale__img" src="img/sale/printed_t-shirt.png" alt="Image">
+                        </article>
+                        <article class="sale__item item-sale item-sale--dark item-sale--right">
+                                <div class="item-sale__body">
+                                    <h4 class="item-sale__title">
+                                        <a href="#" class="item-sale__link-title">Cargo <br> Joggers</a>
+                                    </h4>
+                                    <div class="item-sale__label">Dress up in summer vibe</div>
+                                    <div class="item-sale__info">UPTO 50% OFF</div>
+                                    <div class="item-sale__arrow _icon-arrow_down">
+                                        <a href="#" class="item-sale__button  ">SHOP NOW</a>
+                                    </div>
+                                </div>
+                                <img class="item-sale__img" src="img/sale/cargo_joggers.png" alt="Image">
+                        </article>
+                        <article class="sale__item item-sale item-sale--dark item-sale--right">
+                                <div class="item-sale__body">
+                                    <h4 class="item-sale__title">
+                                        <a href="#" class="item-sale__link-title">Urban <br> Shirts</a>
+                                    </h4>
+                                    <div class="item-sale__label">Dress up in summer vibe</div>
+                                    <div class="item-sale__info">UPTO 50% OFF</div>
+                                    <div class="item-sale__arrow _icon-arrow_down">
+                                        <a href="#" class="item-sale__button  ">SHOP NOW</a>
+                                    </div>
+                                </div>
+                                <img class="item-sale__img" src="img/sale/urban_shirts.png" alt="Image">
+                        </article>
+                        <article class="sale__item item-sale item-sale--dark item-sale--right">
+                                <div class="item-sale__body">
+                                    <h4 class="item-sale__title">
+                                        <a href="#" class="item-sale__link-title">Oversized <br> T-Shirts</a>
+                                    </h4>
+                                    <div class="item-sale__label">Dress up in summer vibe</div>
+                                    <div class="item-sale__info">UPTO 50% OFF</div>
+                                    <div class="item-sale__arrow _icon-arrow_down">
+                                        <a href="#" class="item-sale__button">SHOP NOW</a>
+                                    </div>
+                                </div>
+                                <img class="item-sale__img" src="img/sale/oversized_t-shirts.png" alt="Image">
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="page__shop-now shop-now">
+                <div class="shop-now__container">
+                    <div class="shop-now__content">
+                        <h2 class="shop-now__title">WE MADE YOUR EVERYDAY FASHION BETTER!</h2>
+                        <div class="shop-now__text">
+                            <p>In our journey to improve everyday fashion, euphoria presents EVERYDAY wear range - Comfortable & Affordable fashion 24/7</p>
+                        </div>
+                        <a href="#" class="shop-now__button button button--white">Shop Now</a>
+                    </div>
+                    <img class="shop-now__img" src="img/shop__now/shop_now_img2.png" alt="img">
+                </div>
+            </section>
+            <section class="page__products products">
+                <div class="products__container">
+                    <h2 class="products__title title title--margin">Categories For Men</h2>
+                    <div class="products__items">
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/categories-for -men/shirts.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Shirts</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/printed_t-shirts.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Printed T-Shirts</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/plain_t-shirt.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Plain T-Shirt</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/polo_t-shirt.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Polo T-Shirt</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/hoodies_&_sweetshirt.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Shirts</a>
+                                </h4>
+                                <div class="item-product__label">Hoodies & Sweetshirt</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/jeans.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Jeans</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/activewear.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Activewear</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_men/boxers.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Boxers</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="page__products products">
+                <div class="products__container">
+                    <h2 class="products__title title title--margin">Categories For Women</h2>
+                    <div class="products__items">
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_women/hoodies_&_sweetshirt.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Hoodies & Sweetshirt</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_women/coats_&_parkas.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Coats & Parkas</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_women/tees_&_t-shirt.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Tees & T-Shirt</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                        <article class="item-product item-product--category">
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/for_women/boxers.webp" alt="img">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Boxers</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <a class="item-product__link _icon-arrow_right" href="#"></a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="page__top-brands top-brands">
+                <div class="top-brands__container">
+                    <div class="top-brands__body">
+                        <h2 class="top-brands__title">Top Brands Deal</h2>
+                        <div class="top-brands__label">Up To <span>60%</span> off on brands</div>
+                        <div class="top-brands__items">
+                            <a target="_blank" class="top-brands__item" href="#">
+                                <img class="top-brands__img" src="img/top-brands/nike.png" alt="brand">
+                            </a>
+                            <a target="_blank" class="top-brands__item" href="#">
+                                <img class="top-brands__img" src="img/top-brands/h&m.png" alt="brand">
+                            </a>
+                            <a target="_blank" class="top-brands__item" href="#">
+                                <img class="top-brands__img" src="img/top-brands/levi`s.png" alt="brand">
+                            </a>
+                            <a target="_blank" class="top-brands__item" href="#">
+                                <img class="top-brands__img" src="img/top-brands/polo.png" alt="brand">
+                            </a>
+                            <a target="_blank" class="top-brands__item" href="#">
+                                <img class="top-brands__img" src="img/top-brands/puma.png" alt="brand">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__products products">
+                <div class="products__container">
+                    <h2 class="products__title title title--margin">In The Limelight</h2>
+                    <div class="products__items">
+                        <article class="products__items item-product">
+                            <a class="item-product__favorite _icon-heart" href="#"></a>
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/limelight/black_sweatshirt_with.webp" alt="shirt">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Black Sweatshirt with </a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <div class="item-product__price">$38.00</div>
+                            </div>
+                        </article>
+                        <article class="products__items item-product">
+                            <a class="item-product__favorite _icon-heart" href="#"></a>
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/limelight/line_pattern_black_h.webp" alt="shirt">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">line Pattern Black H</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <div class="item-product__price">$38.00</div>
+                            </div>
+                        </article>
+                        <article class="products__items item-product">
+                            <a class="item-product__favorite _icon-heart" href="#"></a>
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/limelight/black_shorts.webp" alt="shirt">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Black Shorts</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <div class="item-product__price">$38.00</div>
+                            </div>
+                        </article>
+                        <article class="products__items item-product">
+                            <a class="item-product__favorite _icon-heart" href="#"></a>
+                            <a class="item-product__pictuer-link" href="#">
+                                <img class="item-product__img" src="img/limelight/levender_hoodie_with .webp" alt="shirt">
+                            </a>
+                            <div class="item-product__body">
+                                <h4 class="item-product__title">
+                                    <a class="item-product__link-title" href="#">Levender Hoodie with</a>
+                                </h4>
+                                <div class="item-product__label">Explore Now!</div>
+                                <div class="item-product__price">$38.00</div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="page__reviews reviews">
+                <div class="reviews__container">
+                    <h2 class="reviews__title title title--margin">Feedback</h2>
+                    <div class="reviews__slider swiper">
+                        <div class="reviews__wraper swiper-wrapper">
+                            <article class="reviews__slide slide-review swiper-slide">
+                                <div class="slide-review__header">
+                                    <img class="slide-review__avatar" src="img/reviews/avatar_slide1.png" alt="avatar">
+                                    <div data-rating="2.3" class="slide-review__rating rating rating--set">
+                                        <div class="rating__items">
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="1">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="2">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="3">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="4">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="5">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="slide-review__titel">Floyd Miles</h4>
+                                <div class="slide-review__text">
+                                    <p>
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                                        Velit officia consequat duis enim velit mollit. 
+                                        Exercitation veniam consequat sunt nostrud amet. 
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat 
+                                        sunt nostrud amet.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="reviews__slide slide-review swiper-slide">
+                                <div class="slide-review__header">
+                                    <img class="slide-review__avatar" src="img/reviews/avatar_slide2.png" alt="avatar">
+                                    <div data-rating="3.8" class="slide-review__rating rating rating--set">
+                                        <div class="rating__items">
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="1">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="2">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="3">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="4">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="5">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="slide-review__titel">Ronald Richards</h4>
+                                <div class="slide-review__text">
+                                    <p>
+                                        Aullamco est sit aliqua dolor do amet sint. Velit officia consequat duis 
+                                        enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="reviews__slide slide-review swiper-slide">
+                                <div class="slide-review__header">
+                                    <img class="slide-review__avatar" src="img/reviews/avatar_slide3.png" alt="avatar">
+                                    <div data-rating="4.4" class="slide-review__rating rating">
+                                        <div class="rating__items">
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="1">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="2">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="3">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="4">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="5">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="slide-review__titel">Savannah Nguyen</h4>
+                                <div class="slide-review__text">
+                                    <p>
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                                        Velit officia consequat duis enim velit mollit. 
+                                        Exercitation veniam consequat sunt nostrud amet. 
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat 
+                                        sunt nostrud amet.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="reviews__slide slide-review swiper-slide">
+                                <div class="slide-review__header">
+                                    <img class="slide-review__avatar" src="img/reviews/avatar_slide3.png" alt="avatar">
+                                    <div data-rating="5" class="slide-review__rating rating">
+                                        <div class="rating__items">
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="1">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="2">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="3">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="4">
+                                            </label>
+                                            <label class="rating__item">
+                                                <input class="rating__input" type="radio" name="rating" value="5">
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="slide-review__titel">Savannah Nguyen</h4>
+                                <div class="slide-review__text">
+                                    <p>
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+                                        Velit officia consequat duis enim velit mollit. 
+                                        Exercitation veniam consequat sunt nostrud amet. 
+                                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat 
+                                        sunt nostrud amet.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="reviews__pages"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__menu menu-footer">
+                    <div class="menu-footer__block">
+                        <h5 class="menu-footer__title">Need Help</h5>
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Contact Us</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Track Order</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Returns & Refunds</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">FAQ's</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-footer__block">
+                        <h5 class="menu-footer__title">Company</h5>
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">About Us</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Euphoria Blog</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Euphoriastan</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Collaboration</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Media</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-footer__block">
+                        <h5 class="menu-footer__title">More Info</h5>
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Term and Conditions</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Shipping Policy</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="#">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-footer__block">
+                        <h5 class="menu-footer__title">Location</h5>
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a class="menu-footer__link" href="mailto:support@euphoria.in">support@euphoria.in</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                Eklingpura Chouraha, Ahmedabad Main Road
+                            </li>
+                            <li class="menu-footer__item">
+                                (NH 8- Near Mahadev Hotel) Udaipur, India- 313002
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__body">
+                    <div class="footer__social social-footer">
+                        <ul class="social-footer__list">
+                            <li class="social-footer__item">
+                                <a class="social-footer__link _icon-social_fb" target="_blank" href="#"></a>
+                            </li>
+                            <li class="social-footer__item">
+                                <a class="social-footer__link _icon-social_inst" target="_blank" href="#"></a>
+                            </li>
+                            <li class="social-footer__item">
+                                <a class="social-footer__link _icon-social_twitter" target="_blank" href="#"></a>
+                            </li>
+                            <li class="social-footer__item">
+                                <a class="social-footer__link _icon-social_link" target="_blank" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__download download-apps">
+                        <h5 class="download-apps__title">Download The App </h5>
+                        <div class="download-apps__items">
+                            <a class="download-apps__item" target="_blank" href="#">
+                            <img src="img/google.svg" alt="google play">
+                            </a>
+                            <a class="download-apps__item" target="_blank" href="#">
+                            <img src="img/apple.svg" alt="apple store">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__categories popular-categories">
+                    <h5 data-spoller class="popular-categories__title ">
+                        <button class="popular-categories__button-title _icon-chevron_down">Popular Categories</button>
+                    </h5>
+                    <div class="popular-categories__body">
+                        <ul class="popular-categories__list">
+                            <li class="popular-categories__item">
+                                <a class="popular-categories__link" href="#">Shop</a>
+                            </li>
+                            <li class="popular-categories__item">
+                                <a class="popular-categories__link" href="#">Men</a>
+                            </li>
+                            <li class="popular-categories__item">
+                                <a class="popular-categories__link" href="#">Women</a>
+                            </li>
+                            <li class="popular-categories__item">
+                                <a class="popular-categories__link" href="#">Combos</a>
+                            </li>
+                            <li class="popular-categories__item">
+                                <a class="popular-categories__link" href="#">Joggers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+                </div>
+            </div>    
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
