@@ -1,0 +1,67 @@
+.video-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.video-button:hover {
+  background-color: #f9f9f9;
+  /* Легкий сірий фон */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  /* Більший ефект тіні */
+  transform: scale(1.1);
+  /* Збільшення розміру */
+}
+
+.video-button_inner {
+  display: flex;
+  align-items: center;
+}
+
+.icon-16 {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  transition: opacity 0.3s ease;
+  /* Плавна зміна прозорості для іконки */
+}
+
+.hidden {
+  display: none;
+}
+
+.video-button_label-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  opacity: 0;
+  /* Початково приховано */
+  transition: opacity 0.3s ease;
+  /* Плавне з’явлення тексту */
+}
+
+.video-button:hover .video-button_label-wrapper {
+  opacity: 1;
+  /* Плавно показуємо текст при ховері */
+}
+
+.paragraph-medium {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.video-button_initial-text {
+  color: #000;
+}
+
+.video-button_secondary-text {
+  color: #888;
+}
